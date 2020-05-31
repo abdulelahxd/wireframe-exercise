@@ -45,12 +45,12 @@ section {
     width: 100%;
 }
 
-#mainpic {
+section div img {
     margin: 26px 46px;
     display: inline-block;
 }
 
-.boxes {
+section article img {
     margin: 13px;
 }
 
@@ -60,24 +60,26 @@ section:nth-of-type(3) {
     justify-content: center;
 }
 
-#secondarea img {
-    margin-left: 280px;
+
+section figure img {
+    margin-left: 0px;
 }
 
-#textbox {
+
+section figure:nth-child(2) {
    display: flex;
    flex-direction: column;
    margin-left: 20px;
    width: 460px;
 }
 
-#textbox h4 {
+section figure h4 {
     text-align: left;
     margin-bottom: 10px;
     font-size: 18px;
 }
 
-#buttonclick {
+section figure div {
     display: flex;
     justify-content: flex-start;
     margin-top: 10px;
